@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1 id="head">Rock Paper Scissor Game</h1>
+
+        <h3 id="score">No Games Played Yet</h3>
+        
+        <p id="para">Choose one : ✊ Rock, ✋ Paper, ✌️ Scissor</p>
+
+        <div class="game-button">
+            <button id="rock" class="option-button" onclick="clickRock();">✊ Rock</button>
+
+            <button id="paper" class="option-button"
+            onclick="clickPaper();">✋ Paper</button>
+
+            <button id="scissor" class="option-button" onclick="clickScissor();">✌️ Scissor</button>
+
+            <button id="reset-button" class="option-button" onclick="resetScore();">Reset</button>
+        </div>
+
+        <h3 id="result"></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
